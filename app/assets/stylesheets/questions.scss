@@ -1,0 +1,39 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+*{
+  padding: 0px;
+  margin:0px;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 50px;
+}
+.discussion {
+  border-left: solid 3px #eaeaea;
+  padding-left: 20px;
+  margin-bottom:20px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+
+.question, .answser {
+  display: flex;
+  justify-content: flex-start;
+}
+//   <div class="question">
+//     <h2>Question</h1>
+//     <p><%= @question %></p>
+//   </div>
+//   <div class="answser">
+//     <h2>Answer</h2>
+//     <p><%= @answer %></p>
+//   </div>
+// </div>
+// <div class="back">
+//   <%= link_to "Ask a new question", ask_path %>
+// </div>
